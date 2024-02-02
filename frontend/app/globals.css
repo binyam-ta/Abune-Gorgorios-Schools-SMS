@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/global.css */
+@import url('https://unpkg.com/@fullcalendar/core/main.css');
+@import url('https://unpkg.com/@fullcalendar/daygrid/main.css');
+.fc-prev-button,
+.fc-next-button {
+  background-color: #e2e8f0; /* Set custom background color */
+  color: #000000; /* Set custom icon color */
+  font-size: 14px; /* Set custom font size */
+}
+
+/* Style for the title */
+.fc-toolbar-title {
+  font-size: 18px; /* Set custom font size for the title */
+}
+
+/* Media query to adjust styles for smaller screens */
+@media (max-width: 768px) {
+  /* Decrease font size for the title */
+  .fc-toolbar-title {
+    font-size: 16px;
+  }
+  
+  /* Decrease font size for the prev and next buttons */
+  .fc-prev-button,
+  .fc-next-button {
+    font-size: 12px;
+  }
+}
+
+
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    height: 0;
+}
+
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    border:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+  color:green;
+}
+/* input {
+  @apply px-2;
+}
+  .fc-header-toolbar {
+    display: inline-block;
+    padding: 4px 4px;
+    
+    @apply space-x-8;
+}
+
+.fc-day {
+  @apply m-8;
+}
+
+.fc-scrollgrid-sync-table {
+  @apply w-full;
+}
+
+.fc-view {
+  @apply w-full h-full lg:h-3/4 xl:h-2/3 bg-white;
+}
+
+.fc-h-event {
+  @apply bg-violet-500 border border-violet-600 ;
+  
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  @apply bg-violet-100 ;
+}
+
+.fc .fc-button{
+  @apply bg-violet-800 hover:bg-violet-900  ;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  @apply bg-violet-600;
+}
+
+.fc .fc-button-primary:disabled {
+  @apply bg-violet-600;
+}
+.fc-v-event {
+  @apply bg-violet-500 border border-violet-600 ;
+  
+} */
+
+
+.boxshadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+

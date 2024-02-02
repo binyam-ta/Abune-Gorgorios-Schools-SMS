@@ -1,0 +1,56 @@
+/* .pdf-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.close-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+} */
+.pdfContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .closeButton {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    margin-top: 3px;
+    margin-right: 3px;
+    
+  }
+ /* ReadingMaterialsCss.module.css */
+.materialLink {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .materialLink:hover {
+    color: #0056b3; /* Change link color on hover */
+  }
+  
